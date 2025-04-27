@@ -3,11 +3,8 @@ using System.Collections.Generic;
 
 namespace reIndiv_ass_CSharp
 {
-    using System;
-    using System.Collections.Generic;
-
-
-        abstract class EmergencyUnit
+ 
+       abstract class EmergencyUnit
         {
             public string Name { get; }
             public int Speed { get; }
